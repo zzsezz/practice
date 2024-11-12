@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- form elements -->
+    <!-- 사용자로부터 데이터를 입력받기 위한 html 요소들 -->
+    <form action="">
+      <div>
+        <label for="email">mail</label>
+        <input type="email" id="" />
+        <!-- 대표적인 form element -->
+      </div>
+      <div>
+        <label for="password">password</label>
+        <input type="password" id="password" />
+      </div>
+    </form>
+
+    <h4>which language you want learn?(multiple chooes)</h4>
+    <div>
+      <input type="checkbox" name="lan" id="ck_html" />
+      <label for="ck_html">html</label>
+      <input type="checkbox" name="lan" id="ck_css" />
+      <label for="ck_css">css</label>
+      <input type="checkbox" name="lan" id="" />
+      <label for="ck_js">js</label>
+    </div>
+    <h4>language that you want learn (single chooes)</h4>
+    <input type="radio" id="rd_html" name="rdo" />
+    <label for="rd_html">html</label>
+    <input type="radio" id="rd_css" name="rdo" />
+    <label for="rd_css">css</label>
+    <input type="radio" id="rd_js" name="rdo" />
+    <label for="rd_js">js</label>
+  </body>
+
+  <div>
+    <label for="favcolor">favourite colour?</label>
+    <input type="color" id="favcolor" />
+  </div>
+  <div>
+    <input type="date" id="bday" />
+    <label for="bday">when is your birthday?</label>
+  </div>
+  <div>
+    <label for="bdate">when is your time</label>
+    <input type="datetime-local" id="bdate" />
+  </div>
+  <div>
+    <label for="att">file</label>
+    <input type="file" id="att" />
+  </div>
+  <div>
+    <!-- not for user -->
+    <!-- for developer -->
+    <input type="hidden" name="email" value="srim94.com" />
+  </div>
+
+  <div>
+    <img
+      src="./img/basic_img.jpg"
+      alt=""
+      style="width: 100px; height: inherit"
+    />
+    <input
+      type="image"
+      src="./img/basic_img.jpg"
+      style="width: 100px; height: auto"
+    />
+  </div>
+
+  <div>
+    <label for="yymm">mmyy</label>
+    <input type="month" id="yymm" />
+  </div>
+  <div>
+    <label for="age">age</label>
+    <input type="number" id="age" min="0" />
+  </div>
+  <div>
+    <label for="pw">pass</label>
+    <input type="password" id="pw" />
+  </div>
+  <div>
+    <label for="ph">tel</label>
+    <input type="tel" id="ph" value="" pattern="^010-d{4}-d" />
+  </div>
+</html>

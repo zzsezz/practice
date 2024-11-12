@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px black solid;
+        border-collapse: collapse;
+      }
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 표;tABLE 행; tr 셀; td,th -->
+    <!-- thead , tbody-->
+    <table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>phone</th>
+          <th>mail</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>jin se lim</td>
+          <td>010-0000-000</td>
+          <td>srim94@naver.com</td>
+        </tr>
+        <tr>
+          <td>dooly</td>
+          <td>none</td>
+          <td>happydog@naver.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <td>grade</td>
+          <td>number</td>
+          <td>amount</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="3">grade 1</td>
+          <td>number 1</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <!-- <td>grade 2</td> -->
+          <td>number 2</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <!-- <td>grade 2</td> -->
+          <td>number 2</td>
+          <td>18</td>
+        </tr>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">total</td>
+                <!-- <td></td> -->
+                <td>55</td>
+            </tr>
+        </tfoot>
+      </tbody>
+    </table>
+  </body>
+</html>

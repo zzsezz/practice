@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="loca">your location</label>
+    <select name="" id="loca">
+      <option value="02">seoul</option>
+      <option value="051">busan</option>
+      <option value="064">jeju</option>
+    </select>
+    <!-- 옵션이 많을 때 -->
+    <!-- 옵션이 적을 때는 라디오 -->
+    <div>
+      <select name="sex" id="sex">
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select>
+    </div>
+    <div>
+      <input type="radio" name="sex" id="male" />
+      <label for="male">male</label>
+      <input type="radio" name="sex" id="female" />
+      <label for="female">female</label>
+    </div>
+
+    <div>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+      <fieldset>
+        <legend>personal information</legend>
+        <div>
+          <label for="">name</label>
+          <input type="text" name="" id="name">
+
+        </div>
+        <div><label for="tel">tel</label>
+        <label for=""></label></div>
+    </fieldset>
+
+        <div>
+            <input list="browsers" />
+            <datalist id="browsers">
+                <option value="internet">internet</option>
+                <option value="firefox">firefox</option>
+                <option value="chrome">chrome</option>
+        </div>
+    
+    </div>
+  </body>
+</html>
