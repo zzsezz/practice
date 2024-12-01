@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            /* flex-direction: row-reverse;  */
+            /* x축 좌에서 우 */
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            /* y축 상>하 */
+            border: 3px dotted black;
+        }
+
+        .item {
+            background-color: aqua;
+            width: 30px;
+            border: black solid 2px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">a</div>
+    <div class="item">b</div>
+    <div class="item">c</div>
+    <div class="item">d</div>
+    <div class="item">e</div>
+    </div>
+    
+
+</body>
+</html>

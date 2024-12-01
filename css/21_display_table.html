@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .display-table {
+            display: table; 
+        }
+/* table 요소처럼 표현 */
+        .display-tb-header {
+            display: table-header-group;
+        }
+/* thead 요소처럼 표현 */
+        .display-tb-body {
+            display: table-row-group;
+        }
+        /* tbody 요소처럼 표현 */
+        .display-tb-low {
+            display: table-row;
+        }
+        /* tr 요소처럼 표현 */
+.display-tb-cell {
+    display: table-cell;
+}
+/* td,th 요소처럼 표현 */
+    </style>
+</head>
+<body>
+    <div class="display-table">
+        <div class="display-tb-header"></div>
+        <div class="display-tb-low"></div>
+        <div class="display-tb-cell">1</div>
+        <div class="display-tb-cell">2</div>
+        <div class="display-tb-cell">3</div>
+
+    </div>
+        <div class="display-tb-body"></div>
+        <div class="display-tb-low"></div>
+        <div class="display-tb-cell">1-1</div>
+        <div class="display-tb-cell">2-1</div>
+        <div class="display-tb-cell">3-1</div>
+
+    </div>
+</div>
+
+</body>
+</html>
